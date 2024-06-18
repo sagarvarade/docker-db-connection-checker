@@ -1,6 +1,19 @@
 This is to check connection is available to DB or not. <br>
 
 <Pre>
+
+Docker build command :
+
+docker build -t dbconcheck:1.1.1 -f dockerFile .
+
+Docker Run command :
+
+docker run -d --restart=always -p 7070:7070 dbconcheck:1.1.1
+
+
+
+
+
   Supporting now for Mysql,Oracle , Postgres.
   Develop to check on docker 
 
